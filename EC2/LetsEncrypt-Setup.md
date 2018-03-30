@@ -32,3 +32,6 @@ sudo nano yourappname.ssl.conf
 ### 7. Restart nginx
 
 ``sudo service nginx-sp restart``
+
+#### If you see error
+<a href="https://github.com/digitechpoint/AWS-Help/blob/master/EC2/letsencrypt-error.md">See this</a>
