@@ -27,7 +27,7 @@ sudo nano yourappname.ssl.conf
 ```
 
 ### 6. Copy this code
-<a href="#">Click</a>
+<a href="https://github.com/digitechpoint/AWS-Help/blob/master/EC2/yourappname.ssl.conf">Click</a>
 
 ### 7. Restart nginx
 
