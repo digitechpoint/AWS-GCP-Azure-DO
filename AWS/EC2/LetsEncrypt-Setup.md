@@ -27,7 +27,7 @@ sudo nano yourappname.ssl.conf
 ```
 
 ### 6. Copy this code
-<a href="https://github.com/digitechpoint/AWS-Help/blob/master/EC2/yourappname.ssl.conf">Click</a>
+<a href="https://raw.githubusercontent.com/digitechpoint/AWS-GCP-Azure-DO/master/AWS/EC2/yourappname.ssl.conf">Click</a>
 
 ### 7. Restart nginx
 
@@ -35,4 +35,4 @@ sudo nano yourappname.ssl.conf
 
 <hr>
 
-#### If you see error <a href="https://github.com/digitechpoint/AWS-Help/blob/master/EC2/letsencrypt-error.md">See this</a>
+#### If you see error <a href="https://github.com/digitechpoint/AWS-GCP-Azure-DO/blob/master/AWS/EC2/letsencrypt-error.md">See this</a>
