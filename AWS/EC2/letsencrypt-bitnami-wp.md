@@ -1,6 +1,6 @@
 ## Only for Bitnami
 
-For SSL Issued by other CA - <a href="https://github.com/digitechpoint/AWS-GCP-Azure-DO/blob/master/AWS/EC2/ssl-bitnami-wp.md">SSL bitnami</a>
+> For SSL Issued by other CA - <a href="https://github.com/digitechpoint/AWS-GCP-Azure-DO/blob/master/AWS/EC2/ssl-bitnami-wp.md">SSL bitnami</a>
 
 ### 1. Installation path
 Log in to the server via ssh and navigate to following folder
