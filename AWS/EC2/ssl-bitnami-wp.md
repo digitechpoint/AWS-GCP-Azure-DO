@@ -1,5 +1,7 @@
 ## SSL Setup
 
+> Check other tutorial <a href="https://github.com/digitechpoint/AWS-GCP-Azure-DO/blob/master/AWS/EC2/letsencrypt-bitnami-wp.md">Letsencrypt Setup Bitnami</a>
+
 ### 1. Installation path
 Log in to the server via ssh and navigate to following folder
 ```
@@ -24,7 +26,7 @@ openssl req -new -newkey RSA:2048 -nodes -keyout ssl.key -out ssl.csr
 
 ``sudo /opt/bitnami/ctlscript.sh stop``
 
-### 3. Upload certificate
+### 5. Upload certificate
 
 Create a file named `ssl.crt` and copy/paste your certificates according to the following order.
 ```
@@ -38,7 +40,7 @@ Upload `ssl.crt` to your created path
 
 ``/opt/bitnami/apps/wordpress/certs/YOUR_DOMAIN_NAME``
 
-### 4. Server config
+### 6. Server config
 
 check apache/nginx
 
@@ -66,12 +68,12 @@ sudo chown root:root /opt/bitnami/nginx/conf/server*
 sudo chmod 600 /opt/bitnami/nginx/conf/server*
 ```
 
-### 5. Start Bitnami
+### 7. Start Bitnami
 
 ``sudo /opt/bitnami/ctlscript.sh restart``
 
 <hr>
 
-> Install "<a href="https://wordpress.org/plugins/really-simple-ssl/">Really Simple SSL</a>" to fix mix content issue and auto redirect to https.
-> Bitnami Docs: <a href="https://docs.bitnami.com/bch/infrastructure/lamp/administration/create-ssl-certificate-apache/">Create An SSL Certificate</a> - <a href="https://docs.bitnami.com/bch/infrastructure/lamp/administration/enable-https-ssl-apache/">Enable HTTPS Support</a> 
-> Validation Tool: <a href="https://www.sslchecker.com/sslchecker">SSL Checker</a>
+* Install "<a href="https://wordpress.org/plugins/really-simple-ssl/">Really Simple SSL</a>" to fix mix content issue and auto redirect to https.
+* Bitnami Docs: <a href="https://docs.bitnami.com/bch/infrastructure/lamp/administration/create-ssl-certificate-apache/">Create An SSL Certificate</a> - <a href="https://docs.bitnami.com/bch/infrastructure/lamp/administration/enable-https-ssl-apache/">Enable HTTPS Support</a> 
+* Validation Tool: <a href="https://www.sslchecker.com/sslchecker">SSL Checker</a>
