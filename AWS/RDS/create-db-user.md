@@ -14,7 +14,7 @@ replace **new_db_name** with your database name.
 replace **dbuser1** with your database user & **password** with your secure password.
 
 ## Permission change
-``GRANT ALL PRIVILEGES ON wordpress.* TO 'wpuser';``
+``GRANT ALL PRIVILEGES ON new_db_name.* TO 'dbuser1';``
 
 ## Reload
 ```FLUSH PRIVILEGES;```
