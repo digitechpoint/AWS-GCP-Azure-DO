@@ -19,5 +19,9 @@ sudo ln -sf /etc/letsencrypt/live/digitechpoint.com/privkey.pem /etc/nginx-sp/ss
 
 Dont forget to replace the `APP NAME`, `DOMAIN NAME` and `WEB ROOT PATH` from above.
 
+Now restart the services
+```
+sudo service nginx-sp restart && sudo service apache-sp restart && sudo service php7.4-fpm-sp restart
+```
 
 Ref: https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal
