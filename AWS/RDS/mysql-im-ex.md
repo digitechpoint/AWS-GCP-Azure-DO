@@ -16,3 +16,9 @@ When prompted for password, provide the **password**
 
 ## To login via SSH
 ```mysql -h rds.host.name -u remote_user_name -p```
+
+### Errors
+
+*mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces*
+
+`--no-tablespaces`
